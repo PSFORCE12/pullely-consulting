@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 50" width="220" height="50">
+  <!-- Option 1: Elegant Monogram — "PC" in navy circle + text -->
+  <circle cx="22" cy="25" r="19" fill="#0B1D33" stroke="#C9A84C" stroke-width="1"/>
+  <text x="22" y="31" text-anchor="middle" font-family="Poppins, sans-serif" font-size="16" font-weight="700" fill="#C9A84C">PC</text>
+  <text x="54" y="24" font-family="Poppins, sans-serif" font-size="15" font-weight="700" fill="#0B1D33">Pullely</text>
+  <text x="54" y="40" font-family="Poppins, sans-serif" font-size="10" font-weight="400" fill="#C9A84C" letter-spacing="2.5">CONSULTING</text>
+</svg>

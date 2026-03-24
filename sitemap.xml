@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- English Pages -->
+  <url>
+    <loc>https://pullely-consulting.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pullely-consulting.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pullely-consulting.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pullely-consulting.com/fr/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://pullely-consulting.com/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pullely-consulting.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pullely-consulting.com/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pullely-consulting.com/fr/about.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pullely-consulting.com/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pullely-consulting.com/services.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pullely-consulting.com/de/services.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pullely-consulting.com/fr/services.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pullely-consulting.com/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pullely-consulting.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pullely-consulting.com/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pullely-consulting.com/fr/contact.html"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pullely-consulting.com/appointments.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pullely-consulting.com/appointments.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pullely-consulting.com/de/appointments.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pullely-consulting.com/fr/appointments.html"/>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://pullely-consulting.com/impressum.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pullely-consulting.com/impressum.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pullely-consulting.com/de/impressum.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pullely-consulting.com/fr/impressum.html"/>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://pullely-consulting.com/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pullely-consulting.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pullely-consulting.com/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pullely-consulting.com/fr/privacy.html"/>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- German Pages -->
+  <url>
+    <loc>https://pullely-consulting.com/de/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pullely-consulting.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pullely-consulting.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pullely-consulting.com/fr/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://pullely-consulting.com/de/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pullely-consulting.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pullely-consulting.com/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pullely-consulting.com/fr/about.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pullely-consulting.com/de/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pullely-consulting.com/services.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pullely-consulting.com/de/services.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pullely-consulting.com/fr/services.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pullely-consulting.com/de/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pullely-consulting.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pullely-consulting.com/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pullely-consulting.com/fr/contact.html"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pullely-consulting.com/de/appointments.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pullely-consulting.com/appointments.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pullely-consulting.com/de/appointments.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pullely-consulting.com/fr/appointments.html"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pullely-consulting.com/de/impressum.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pullely-consulting.com/impressum.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pullely-consulting.com/de/impressum.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pullely-consulting.com/fr/impressum.html"/>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://pullely-consulting.com/de/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pullely-consulting.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pullely-consulting.com/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pullely-consulting.com/fr/privacy.html"/>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- French Pages -->
+  <url>
+    <loc>https://pullely-consulting.com/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pullely-consulting.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pullely-consulting.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pullely-consulting.com/fr/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://pullely-consulting.com/fr/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pullely-consulting.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pullely-consulting.com/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pullely-consulting.com/fr/about.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pullely-consulting.com/fr/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pullely-consulting.com/services.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pullely-consulting.com/de/services.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pullely-consulting.com/fr/services.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pullely-consulting.com/fr/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pullely-consulting.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pullely-consulting.com/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pullely-consulting.com/fr/contact.html"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pullely-consulting.com/fr/appointments.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pullely-consulting.com/appointments.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pullely-consulting.com/de/appointments.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pullely-consulting.com/fr/appointments.html"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pullely-consulting.com/fr/impressum.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pullely-consulting.com/impressum.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pullely-consulting.com/de/impressum.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pullely-consulting.com/fr/impressum.html"/>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://pullely-consulting.com/fr/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pullely-consulting.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pullely-consulting.com/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pullely-consulting.com/fr/privacy.html"/>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

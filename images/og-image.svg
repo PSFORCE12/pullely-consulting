@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0B1D33"/>
+  <!-- Decorative gold border lines -->
+  <line x1="80" y1="60" x2="1120" y2="60" stroke="#C9A84C" stroke-width="1" opacity="0.4"/>
+  <line x1="80" y1="570" x2="1120" y2="570" stroke="#C9A84C" stroke-width="1" opacity="0.4"/>
+  <!-- Corner accents -->
+  <line x1="80" y1="60" x2="80" y2="100" stroke="#C9A84C" stroke-width="1.5" opacity="0.6"/>
+  <line x1="80" y1="60" x2="130" y2="60" stroke="#C9A84C" stroke-width="1.5" opacity="0.6"/>
+  <line x1="1120" y1="60" x2="1120" y2="100" stroke="#C9A84C" stroke-width="1.5" opacity="0.6"/>
+  <line x1="1070" y1="60" x2="1120" y2="60" stroke="#C9A84C" stroke-width="1.5" opacity="0.6"/>
+  <line x1="80" y1="570" x2="80" y2="530" stroke="#C9A84C" stroke-width="1.5" opacity="0.6"/>
+  <line x1="80" y1="570" x2="130" y2="570" stroke="#C9A84C" stroke-width="1.5" opacity="0.6"/>
+  <line x1="1120" y1="570" x2="1120" y2="530" stroke="#C9A84C" stroke-width="1.5" opacity="0.6"/>
+  <line x1="1070" y1="570" x2="1120" y2="570" stroke="#C9A84C" stroke-width="1.5" opacity="0.6"/>
+  <!-- PC monogram circle -->
+  <circle cx="600" cy="190" r="52" fill="none" stroke="#C9A84C" stroke-width="1.2"/>
+  <circle cx="600" cy="190" r="44" fill="none" stroke="#C9A84C" stroke-width="0.4" opacity="0.4"/>
+  <text x="600" y="204" text-anchor="middle" font-family="Poppins, sans-serif" font-size="40" font-weight="700" fill="#C9A84C" letter-spacing="2">PC</text>
+  <!-- Main headline -->
+  <text x="600" y="315" text-anchor="middle" font-family="Poppins, sans-serif" font-size="68" font-weight="700" fill="#C9A84C" letter-spacing="2">Pullely Consulting</text>
+  <!-- Gold accent line -->
+  <line x1="340" y1="338" x2="860" y2="338" stroke="#C9A84C" stroke-width="1.2" opacity="0.6"/>
+  <!-- Subtitle -->
+  <text x="600" y="390" text-anchor="middle" font-family="Poppins, sans-serif" font-size="26" font-weight="300" fill="#FFFFFF" letter-spacing="1" opacity="0.9">Swiss-Indian Cross-Border Advisory</text>
+  <!-- URL -->
+  <text x="600" y="545" text-anchor="middle" font-family="Poppins, sans-serif" font-size="18" font-weight="400" fill="#FFFFFF" letter-spacing="1" opacity="0.55">pullely-consulting.com</text>
+</svg>
