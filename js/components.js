@@ -8,8 +8,16 @@
   const isDE = lang === 'de';
   const isFR = lang === 'fr';
 
+  // Detect if running on GitHub Pages subfolder (e.g. /pullely-consulting/)
+  var base = '/';
+  var ghMatch = window.location.pathname.match(/^(\/[^\/]+\.github\.io\/[^\/]+|\/pullely-consulting)\//i);
+  if (!ghMatch) ghMatch = window.location.pathname.match(/^(\/pullely-consulting)\b/i);
+  if (window.location.hostname.includes('github.io')) {
+    base = '/' + window.location.pathname.split('/')[1] + '/';
+  }
+
   // Path prefixes
-  const prefix = isDE ? '/de/' : isFR ? '/fr/' : '/';
+  const prefix = isDE ? base + 'de/' : isFR ? base + 'fr/' : base;
 
   // Language switcher links
   const currentPage = window.location.pathname.split('/').pop() || 'index.html';
@@ -28,10 +36,10 @@
   const t = {
     en: {
       links: [
-        { href: '/', label: 'Home', page: 'index.html' },
-        { href: '/about.html', label: 'Our Team', page: 'about.html' },
-        { href: '/services.html', label: 'Services', page: 'services.html' },
-        { href: '/contact.html', label: 'Contact', page: 'contact.html' },
+        { href: base, label: 'Home', page: 'index.html' },
+        { href: base + 'about.html', label: 'Our Team', page: 'about.html' },
+        { href: base + 'services.html', label: 'Services', page: 'services.html' },
+        { href: base + 'contact.html', label: 'Contact', page: 'contact.html' },
       ],
       cta: 'Book Now',
       footerDesc: 'Your bridge between Swiss innovation and Indian growth. We facilitate cross-border trade and business development between Switzerland and India.',
@@ -44,10 +52,10 @@
     },
     de: {
       links: [
-        { href: '/de/', label: 'Startseite', page: 'index.html' },
-        { href: '/de/about.html', label: '\u00dcber uns', page: 'about.html' },
-        { href: '/de/services.html', label: 'Leistungen', page: 'services.html' },
-        { href: '/de/contact.html', label: 'Kontakt', page: 'contact.html' },
+        { href: base + 'de/', label: 'Startseite', page: 'index.html' },
+        { href: base + 'de/about.html', label: '\u00dcber uns', page: 'about.html' },
+        { href: base + 'de/services.html', label: 'Leistungen', page: 'services.html' },
+        { href: base + 'de/contact.html', label: 'Kontakt', page: 'contact.html' },
       ],
       cta: 'Termin buchen',
       footerDesc: 'Ihre Br\u00fccke zwischen Schweizer Innovation und indischem Wachstum. Wir erleichtern den grenz\u00fcberschreitenden Handel zwischen der Schweiz und Indien.',
@@ -60,10 +68,10 @@
     },
     fr: {
       links: [
-        { href: '/fr/', label: 'Accueil', page: 'index.html' },
-        { href: '/fr/about.html', label: '\u00c9quipe', page: 'about.html' },
-        { href: '/fr/services.html', label: 'Services', page: 'services.html' },
-        { href: '/fr/contact.html', label: 'Contact', page: 'contact.html' },
+        { href: base + 'fr/', label: 'Accueil', page: 'index.html' },
+        { href: base + 'fr/about.html', label: '\u00c9quipe', page: 'about.html' },
+        { href: base + 'fr/services.html', label: 'Services', page: 'services.html' },
+        { href: base + 'fr/contact.html', label: 'Contact', page: 'contact.html' },
       ],
       cta: 'Prendre RDV',
       footerDesc: 'Votre pont entre l\'innovation suisse et la croissance indienne. Nous facilitons le commerce transfrontalier entre la Suisse et l\'Inde.',
@@ -82,9 +90,9 @@
   // Language dropdown
   var currentLangLabel = lang === 'de' ? 'DE' : lang === 'fr' ? 'FR' : 'EN';
   var langs = [
-    { code: 'en', label: 'English', short: 'EN', flag: '\uD83C\uDDEC\uD83C\uDDE7', prefix: '/' },
-    { code: 'de', label: 'Deutsch', short: 'DE', flag: '\uD83C\uDDE8\uD83C\uDDED', prefix: '/de/' },
-    { code: 'fr', label: 'Fran\u00e7ais', short: 'FR', flag: '\uD83C\uDDEB\uD83C\uDDF7', prefix: '/fr/' },
+    { code: 'en', label: 'English', short: 'EN', flag: '\uD83C\uDDEC\uD83C\uDDE7', prefix: base },
+    { code: 'de', label: 'Deutsch', short: 'DE', flag: '\uD83C\uDDE8\uD83C\uDDED', prefix: base + 'de/' },
+    { code: 'fr', label: 'Fran\u00e7ais', short: 'FR', flag: '\uD83C\uDDEB\uD83C\uDDF7', prefix: base + 'fr/' },
   ];
 
   var currentFlag = langs.filter(function(l) { return l.code === lang; })[0].flag;
