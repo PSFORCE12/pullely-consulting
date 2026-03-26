@@ -338,8 +338,15 @@ p { margin-bottom: 1rem; color: var(--dark-gray); }
 .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
 .fade-in.visible { opacity: 1; transform: translateY(0); }
 
+/* --- Contact Grid --- */
+.contact-grid {
+  display: grid; grid-template-columns: 1fr 340px; gap: 64px;
+  max-width: 1000px; margin: 0 auto;
+}
+
 /* --- Responsive --- */
 @media (max-width: 768px) {
+  .contact-grid { grid-template-columns: 1fr; gap: 32px; }
   .hero { min-height: 75vh; }
   .hero__visual { display: none; }
   .grid--2, .grid--3 { grid-template-columns: 1fr; }
