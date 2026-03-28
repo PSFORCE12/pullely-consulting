@@ -60,39 +60,13 @@
           </div>
         </div>
 
-        <!-- Payment + Booking Flow -->
-        <div style="background:var(--off-white);border-radius:16px;padding:48px 32px;margin-bottom:32px;border:1px solid var(--border);">
-          <h3 style="margin-bottom:8px;">30-Minuten Beratung</h3>
-          <p style="color:var(--medium-gray);font-size:0.95rem;margin-bottom:24px;">Sichern Sie sich Ihren 30-min&uuml;tigen Beratungstermin. Die Zahlung best&auml;tigt Ihre Buchung.</p>
-
-          <!-- Pricing Card -->
-          <div style="background:var(--white);border:2px solid var(--gold);border-radius:12px;padding:32px;max-width:400px;margin:0 auto 28px;text-align:center;">
-            <div style="font-size:0.78rem;font-weight:700;color:var(--gold);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:8px;">30-Minuten Beratung</div>
-            <div style="font-family:var(--font-heading);font-size:2.5rem;font-weight:800;color:var(--navy);line-height:1;margin-bottom:4px;">CHF 150</div>
-            <p style="font-size:0.85rem;color:var(--medium-gray);margin-bottom:20px;">Einzelgespr&auml;ch mit einem Partner</p>
-            <a href="https://buy.stripe.com/9B68wI3dVfvk61L0pMffy00" class="btn btn--gold" style="width:100%;padding:14px;">Jetzt zahlen &amp; buchen</a>
-          </div>
-
-          <p style="font-size:0.82rem;color:var(--medium-gray);text-align:center;margin:0;">
-            Nach der Zahlung werden Sie weitergeleitet, um Ihren bevorzugten Termin auszuw&auml;hlen.
-            <br>Sichere Zahlung &uuml;ber <strong>Stripe</strong>. Volle R&uuml;ckerstattung bei Stornierung 24h vor dem Termin.
-          </p>
+        <!-- Coming Soon Notice -->
+        <div style="background:var(--off-white);border-radius:16px;padding:64px 32px;margin-bottom:32px;border:1px solid var(--border);text-align:center;">
+          <div style="font-size:2.5rem;margin-bottom:16px;">&#128197;</div>
+          <h3 style="margin-bottom:12px;">Buchungen ab 1. April 2026</h3>
+          <p style="color:var(--medium-gray);font-size:1rem;max-width:420px;margin:0 auto 28px;">Die Terminbuchung ist ab dem 1. April 2026 verf&uuml;gbar. In der Zwischenzeit k&ouml;nnen Sie uns gerne &uuml;ber das Kontaktformular erreichen.</p>
+          <a href="contact.html" class="btn btn--primary">Kontakt aufnehmen</a>
         </div>
-
-        <!-- Cal.com Embed -->
-        <div id="cal-embed" style="background:var(--off-white);border-radius:16px;padding:32px;margin-bottom:32px;border:1px solid var(--border);min-height:500px;">
-          <div id="cal-inline" style="width:100%;height:100%;overflow:auto;"></div>
-        </div>
-        <script type="text/javascript">
-          (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
-          Cal("init", {origin:"https://cal.com"});
-          Cal("inline", {
-            elementOrSelector:"#cal-inline",
-            calLink: "sanoj-pullely-xlf2nn/cross-border-advisory-consultation",
-            layout: "month_view"
-          });
-          Cal("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
-        </script>
 
         <p style="font-size:0.88rem;color:var(--medium-gray);">
           Ihre Daten werden gem&auml;ss unserer <a href="privacy.html">Datenschutzerkl&auml;rung</a> verarbeitet.
