@@ -60,13 +60,22 @@
           </div>
         </div>
 
-        <!-- Coming Soon Notice -->
-        <div style="background:var(--off-white);border-radius:16px;padding:64px 32px;margin-bottom:32px;border:1px solid var(--border);text-align:center;">
-          <div style="font-size:2.5rem;margin-bottom:16px;">&#128197;</div>
-          <h3 style="margin-bottom:12px;">R&eacute;servations d&egrave;s le 1er avril 2026</h3>
-          <p style="color:var(--medium-gray);font-size:1rem;max-width:420px;margin:0 auto 28px;">La r&eacute;servation de consultations sera disponible d&egrave;s le 1er avril 2026. En attendant, n&rsquo;h&eacute;sitez pas &agrave; nous contacter via le formulaire de contact.</p>
-          <a href="contact.html" class="btn btn--primary">Nous contacter</a>
+        <!-- Cal.com Embed (sans paiement) -->
+        <div style="background:var(--off-white);border-radius:16px;padding:32px;margin-bottom:32px;border:1px solid var(--border);">
+          <h3 style="margin-bottom:8px;">R&eacute;server un appel d&rsquo;introduction</h3>
+          <p style="color:var(--medium-gray);font-size:0.95rem;margin-bottom:24px;">Choisissez un cr&eacute;neau qui vous convient. Aucun paiement requis.</p>
+          <div id="cal-inline" style="width:100%;min-height:500px;overflow:auto;"></div>
         </div>
+        <script type="text/javascript">
+          (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+          Cal("init", {origin:"https://cal.com"});
+          Cal("inline", {
+            elementOrSelector:"#cal-inline",
+            calLink: "sanoj-pullely-xlf2nn/cross-border-advisory-consultation",
+            layout: "month_view"
+          });
+          Cal("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
+        </script>
 
         <p style="font-size:0.88rem;color:var(--medium-gray);">
           Vos donn&eacute;es sont trait&eacute;es conform&eacute;ment &agrave; notre <a href="privacy.html">Politique de confidentialit&eacute;</a>.

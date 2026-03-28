@@ -3,6 +3,23 @@
    Supports EN (root), DE (/de/), FR (/fr/)
    ============================================ */
 
+/* Coming Soon redirect — active until 1 April 2026 */
+(function () {
+  var launchDate = new Date('2026-04-01T00:00:00');
+  var now = new Date();
+  if (now < launchDate) {
+    var path = window.location.pathname;
+    var isAppointments = /appointments\.html$/.test(path);
+    var isComingSoon = /coming-soon\.html$/.test(path);
+    if (!isAppointments && !isComingSoon) {
+      var base = window.location.hostname.includes('github.io')
+        ? '/' + window.location.pathname.split('/')[1] + '/'
+        : '/';
+      window.location.replace(base + 'coming-soon.html');
+    }
+  }
+})();
+
 (function () {
   const lang = document.documentElement.lang || 'en';
   const isDE = lang === 'de';
